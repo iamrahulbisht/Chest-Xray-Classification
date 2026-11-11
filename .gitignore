@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights and checkpoints
+*.h5
+*.keras
+*.weights
+*.ckpt
+checkpoints/
+saved_models/
+
+# TFRecord data files
+*.tfrecord
+tfrecords/
+
+# Dataset images
+*.png
+*.jpg
+*.jpeg
+data/
+dataset/
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
